@@ -1,0 +1,5 @@
+<!-- res/drawable/custom_selected_bar.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF0000"/> <!-- Set the color for selected bar -->
+    <size android:width="24dp" android:height="4dp"/> <!-- Set the width and height for selected bar -->
+</shape>

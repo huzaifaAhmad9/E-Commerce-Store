@@ -1,0 +1,5 @@
+<!-- res/drawable/custom_unselected_bar.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#CCCCCC"/> <!-- Set the color for unselected bar -->
+    <size android:width="24dp" android:height="4dp"/> <!-- Set the width and height for unselected bar -->
+</shape>

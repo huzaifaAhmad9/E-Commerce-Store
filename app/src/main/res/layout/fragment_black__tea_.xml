@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/animation"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/comming_soon"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+</RelativeLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:context=".splash.coffeeTypeFragments.Black_Tea_Fragment">-->
+
+<!--        <GridLayout-->
+<!--            android:animateLayoutChanges="true"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:columnCount="2"-->
+<!--            android:rowCount="3"-->
+<!--            android:padding="1dp">-->
+
+<!--            &lt;!&ndash; Row 1, Column 1 &ndash;&gt;-->
+<!--            <androidx.cardview.widget.CardView-->
+<!--                app:cardBackgroundColor="@color/white"-->
+<!--                app:cardElevation="8dp"-->
+<!--                app:cardCornerRadius="8dp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="210dp"-->
+<!--                android:layout_row="0"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_margin="8dp">-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <ImageView-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        android:src="@drawable/te1"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="TEA"-->
+<!--                        android:textColor="@color/main"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:layout_marginTop="1dp"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Oolong Tea"-->
+<!--                        android:fontFamily="@font/stylish"-->
+<!--                        android:textColor="@color/main"/>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="13dp"-->
+<!--                            android:text="Rs"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="3dp"-->
+<!--                            android:text="220"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                </LinearLayout>-->
+<!--                <ImageButton-->
+<!--                    android:layout_marginTop="171dp"-->
+<!--                    android:layout_marginLeft="115dp"-->
+<!--                    android:src="@drawable/baseline_add_24"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/rounded_button"/>-->
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            &lt;!&ndash; Row 1, Column 2 &ndash;&gt;-->
+<!--            <androidx.cardview.widget.CardView-->
+<!--                app:cardElevation="8dp"-->
+<!--                app:cardCornerRadius="8dp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="210dp"-->
+<!--                android:layout_row="0"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_margin="8dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <ImageView-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        android:src="@drawable/te5"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="TEA"-->
+<!--                        android:textColor="@color/main"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:layout_marginTop="1dp"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Green Tea"-->
+<!--                        android:fontFamily="@font/stylish"-->
+<!--                        android:textColor="@color/main"/>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="13dp"-->
+<!--                            android:text="Rs"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="3dp"-->
+<!--                            android:text="370"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                </LinearLayout>-->
+<!--                <ImageButton-->
+<!--                    android:layout_marginTop="171dp"-->
+<!--                    android:layout_marginLeft="115dp"-->
+<!--                    android:src="@drawable/baseline_add_24"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/rounded_button"/>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            &lt;!&ndash; Row 2, Column 1 &ndash;&gt;-->
+<!--            <androidx.cardview.widget.CardView-->
+<!--                app:cardElevation="8dp"-->
+<!--                app:cardCornerRadius="8dp"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="210dp"-->
+<!--                android:layout_row="1"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_columnWeight="1"-->
+<!--                android:layout_margin="8dp">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <ImageView-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="125dp"-->
+<!--                        android:src="@drawable/te2"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginLeft="5dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="TEA"-->
+<!--                        android:textColor="@color/main"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                    <TextView-->
+<!--                        android:textSize="17sp"-->
+<!--                        android:layout_marginTop="1dp"-->
+<!--                        android:layout_marginLeft="7dp"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Black Tea"-->
+<!--                        android:fontFamily="@font/stylish"-->
+<!--                        android:textColor="@color/main"/>-->
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:orientation="horizontal">-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="13dp"-->
+<!--                            android:text="Rs"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginTop="1dp"-->
+<!--                            android:layout_marginLeft="3dp"-->
+<!--                            android:text="150"-->
+<!--                            android:fontFamily="@font/stylish"-->
+<!--                            android:textColor="@color/main"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                </LinearLayout>-->
+<!--                <ImageButton-->
+<!--                    android:layout_marginTop="171dp"-->
+<!--                    android:layout_marginLeft="115dp"-->
+<!--                    android:src="@drawable/baseline_add_24"-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="30dp"-->
+<!--                    android:background="@drawable/rounded_button"/>-->
+
+<!--            </androidx.cardview.widget.CardView>-->
+
+<!--            &lt;!&ndash; Row 2, Column 2 &ndash;&gt;-->
+<!--&lt;!&ndash;            <androidx.cardview.widget.CardView&ndash;&gt;-->
+<!--&lt;!&ndash;                app:cardElevation="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:cardCornerRadius="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="210dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_row="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_columnWeight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_margin="8dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:orientation="vertical">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:scaleType="centerCrop"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="125dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:src="@drawable/te4"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="20sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginLeft="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="TEA"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/main"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textStyle="bold"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="17sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginLeft="7dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="Chai"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Rs"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="80"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </LinearLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;                <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginTop="171dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="115dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/baseline_add_24"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@drawable/rounded_button"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </androidx.cardview.widget.CardView>&ndash;&gt;-->
+
+<!--            &lt;!&ndash; Row 3, Column 1 &ndash;&gt;-->
+<!--&lt;!&ndash;            <androidx.cardview.widget.CardView&ndash;&gt;-->
+<!--&lt;!&ndash;                app:cardElevation="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:cardCornerRadius="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="210dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_row="2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_column="0"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_columnWeight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_margin="8dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:orientation="vertical">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:scaleType="centerCrop"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="125dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:src="@drawable/te3"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="20sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="10dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginLeft="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="TEA"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/main"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textStyle="bold"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textSize="17sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginLeft="7dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="Rooibos"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:orientation="horizontal">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Rs"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textSize="18sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginTop="1dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="415"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:fontFamily="@font/stylish"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:textColor="@color/main"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                </LinearLayout>&ndash;&gt;-->
+<!--&lt;!&ndash;                <ImageButton&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginTop="171dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="115dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/baseline_add_24"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@drawable/rounded_button"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </androidx.cardview.widget.CardView>&ndash;&gt;-->
+
+
+
+<!--        </GridLayout>-->
+
+
+
+
+
+
+
+
+<!--    </LinearLayout>-->
+

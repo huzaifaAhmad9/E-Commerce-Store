@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".splash.paymentMethods.Cod">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:background="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/thnks"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true">
+        </com.airbnb.lottie.LottieAnimationView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/first"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_width="316dp"
+        android:layout_height="125dp"
+        android:orientation="vertical">
+        <Button
+            android:gravity="center"
+            style="@style/ButtonStyle"
+            android:id="@+id/btn"
+            android:layout_width="316dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            app:shapeAppearance="?attr/shapeAppearanceCornerMedium"
+            android:text="Rate Us Now"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#C67C4E" />
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/ButtonStyle"
+            android:layout_width="316dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#C67C4E"
+            android:gravity="center"
+            android:text="Back to Store"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:shapeAppearance="?attr/shapeAppearanceCornerMedium" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

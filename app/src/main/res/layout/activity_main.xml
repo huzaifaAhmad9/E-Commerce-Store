@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splash.main.MainActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/main"
+        app:titleTextColor="@android:color/white"
+        app:subtitleTextColor="@android:color/white">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome, "
+                android:textColor="@color/brown"
+                android:fontFamily="@font/stylish"
+                android:textSize="35sp"/>
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Huzaifa Ahmad"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/stylish"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+
+
+<!--    &lt;!&ndash;    FrameLayout for Details on click&ndash;&gt;
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detail_container"/>-->
+
+
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="635dp" />
+
+<!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container1"/>-->
+
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/main"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/brown"
+        app:itemBackground="@drawable/bottom_nav_item_background" />
+
+
+</RelativeLayout>

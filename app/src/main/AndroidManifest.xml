@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoffeeShop"
+        tools:targetApi="31">
+        <activity
+            android:name=".splash.paymentMethods.Cod"
+            android:exported="false" />
+        <activity
+            android:name=".splash.paymentMethods.Payment_Detail"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAfK8l_AJybZBSWIg5Nq9aJPWqPLUMSQw8" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".splash.checkout.Checkout_Methods"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Lat_Coca"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Lat_Vanilla"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Frap_ButterBear"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Frap_Caramel"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Frap_Pumpkin"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Mo_Expresso"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Mo_Iced"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Mo_Hazelnut"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Mo_Choclate"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Am_Almond"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Am_Cupcake"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Am_Caramel"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Capp_Caramel"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Capp_Vanilla"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Capp_Cinnamon"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Capp_Milk"
+            android:exported="false" />
+        <activity
+            android:name=".splash.coffeeDetailsActivity.Capp_Choclate"
+            android:exported="false" />
+        <activity
+            android:name=".splash.main.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash.authentication.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".splash.authentication.Login"
+            android:exported="false" />
+        <activity
+            android:name=".splash.Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
