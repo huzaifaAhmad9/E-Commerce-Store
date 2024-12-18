@@ -1,7 +1,5 @@
 # 🛒 E-Commerce Store App
 
-![Flutter](https://img.shields.io/badge/Flutter-v2.5.0-blue.svg) ![Dart](https://img.shields.io/badge/Dart-v2.14.0-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
-
 The **E-Commerce Store App** is a robust Android application built in Java that allows users to explore, add to cart, and purchase products seamlessly. Designed for scalability and user engagement, this app provides an intuitive interface and integrates core e-commerce features.
 
 ## 🚀 Features
@@ -18,7 +16,7 @@ The **E-Commerce Store App** is a robust Android application built in Java that 
 
 ## 📦 Installation
 
-Follow these steps to get started with the Corona Tracker App:
+Follow these steps to get started with the E-Commerce App:
 
 1. **Clone the repository**:
    https://github.com/huzaifaAhmad9/E-Commerce-Store.git
